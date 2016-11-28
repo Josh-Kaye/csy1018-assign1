@@ -1,0 +1,58 @@
+  /*joshua kaye csy1018 (assign1) - stylesheet.css*/
+  .continer-nav-bar-top--jk{
+    display: flex;
+    justify-content: center;
+    margin-top: -17px;
+    width: 100%;
+    margin-left: -20px;
+  }
+  .nav-bar-top--jk{
+    margin-top: 1%;
+  }
+  .ul-nav-bar-top--jk{
+    list-style-type: none;
+    display: inline-flex;
+  }
+  .li-nav-bar-top--jk{
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+  }
+  .li-nav-bar-top--jk a {/*start of animation // editing the href*/
+    position: relative;
+    display: block;
+    cursor: pointer;
+    padding: 8px 0;
+    color: #434343;
+    text-decoration: none;
+  }
+  .li-nav-bar-top--jk a:hover{
+    color: #434343;
+    text-decoration: none;
+  }
+  .li-nav-bar-top--jk a:before, a:after {/*editing different key frames of the animation, making the like follow after hover // editing the href*/
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: -2px;
+    background: #434343;
+  }
+  .li-nav-bar-top--jk a:before {/*Before hover*/
+    left: 0;
+  }
+  .li-nav-bar-top--jk a:after {/*After the hover*/
+    right: 0;
+    background: #434343;
+    transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+  .li-nav-bar-top--jk a:hover:before {
+    background: #434343;
+    width: 100%;
+    transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+  .li-nav-bar-top--jk a:hover:after {
+    background: transparent;
+    width: 100%;
+    transition: 0s;
+  }/*NAV-BAR-END*/
