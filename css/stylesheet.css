@@ -87,8 +87,11 @@
     width: 100%;
     transition: 0s;
   }/*NAV-BAR-END*/
+  /*NAV-BAR-END*/
+ /*NAV-BAR-END*/
+  /*Container one start*/
   .container-one-jk{ /*container / parent under .navigation for intro content (img, header, text)*/
-    display: flex;/*disply is flex*/
+    display: flex;
     display:-moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -120,4 +123,340 @@
       -webkit-align-self: center;
     text-align: center;
     color: #f1f1f1;
-  }
+  }/*Container one end!!*/
+  /*Container one end!!*/
+ /*Container one end!!*/
+ .container-two-jk{/*conatiner for 3  items*/
+   display: flex;
+     display:-moz-box;
+     display: -ms-flexbox;
+     display: -webkit-flex;
+   flex-direction: row;
+     -webkit-flex-direction: row;
+   height: 700px;
+   background-color: #eeeeee;
+ }
+ .main-wrapper{
+   display:flex;
+     display:-moz-box;
+     display: -ms-flexbox;
+     display: -webkit-flex;
+   flex-direction: row;
+     -webkit-flex-direction: row;
+   margin: 5%;
+   margin-top: 7.5%;
+   width: 100%;
+   height: 550px;
+ }
+ .article-left{/*article-left*/
+   flex-grow: 1;
+   margin-right: 2%;
+   width: 33%;
+   background-color: #e4e4e4;
+     -webkit-box-shadow: 10px 6px 5px -4px rgba(0,0,0,0.35);
+     -moz-box-shadow: 10px 6px 5px -4px rgba(0,0,0,0.35);
+     box-shadow: 10px 6px 5px -4px rgba(0,0,0,0.35);
+ }
+ .education-heading{
+   color: #161616;
+   font-size: 2em;
+   margin-left: 8%;
+ }
+ .ul-eduction-uni{/*Uni list start*/
+   list-style: none;
+ }
+ .li-eduction-uni{
+   font-family: 'ABeeZee', sans-serif;
+   color: #161616;
+   font-size: 1.5em;
+   font-weight: 600;
+}
+ .p-uni{
+   color: #464646;
+   margin-top: 2%;
+   font-family: 'ABeeZee', sans-serif;
+   font-size: 1em;
+   width: 90%;
+ }/*Uni list end*/
+
+ .ul-eduction-college{/*College list start*/
+   list-style: none;
+ }
+ .li-eduction-college{
+   font-family: 'ABeeZee', sans-serif;
+   color: #161616;
+   font-size: 1.5em;
+   font-weight: bolder;
+   transition: 0.9s;
+ }
+ .p-college{
+   color: #464646;
+   font-family: 'ABeeZee', sans-serif;
+   font-size: 1em;
+   width: 90%;
+ }/*College list end*/
+ .ul-eduction-school{/*School list start*/
+   list-style: none;
+ }
+ .li-eduction-school{
+   font-family: 'ABeeZee', sans-serif;
+   color: #161616;
+   font-size: 1.5em;
+   font-weight: bolder;
+   transition: 0.9s;
+ }
+ .p-school{
+   color: #464646;
+   font-family: 'ABeeZee', sans-serif;
+   font-size: 1em;
+   width: 90%;
+ }/*School list end*/
+
+ .article-middle{
+   flex-grow: 1;
+   margin-right: 2%;
+   width: 33%;
+   background-color: #e4e4e4;
+     -webkit-box-shadow: 10px 6px 5px -4px rgba(0,0,0,0.35);
+     -moz-box-shadow: 10px 6px 5px -4px rgba(0,0,0,0.35);
+     box-shadow: 10px 6px 5px -4px rgba(0,0,0,0.35);
+ }
+ .wrapper-work-experiance{
+  display: flex;
+    display:-moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+  align-self: flex-start;
+    -webkit-align-self: center;
+  flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+  width:250px;
+ }
+ .li-work-experiance-tgr{
+   margin-left: -20px;
+   color: #464646;
+   list-style: none;
+   margin-top: 2%;
+   font-family: 'ABeeZee', sans-serif;
+   font-weight: bold;
+   font-size: 1.4em;
+ }
+ .button-article-middle{
+   background-color: #46c7ed;
+   color: black;
+   border-radius: 5px;
+   border: 5px solid #46c7ed; /* Green */
+     -webkit-transition-duration: 0.4s;
+     -moz-transition-duration: 0.4s;
+     -o-transition-duration: 0.4s;
+   transition-duration: 0.4s;
+ }
+ .button-article-middle{
+   background-color: #46c7ed;
+   color: white;
+   border: 2px solid #46c7ed;
+   padding: 8px 16px;
+   text-align: center;
+   text-decoration: none;
+   font-size: 12px;
+   margin: 4px 2px;
+   -webkit-transition-duration: 0.4s;
+   -moz-transition-duration: 0.4s;
+   -o-transition-duration: 0.4s;
+   transition-duration: 0.4s;
+ }
+ .button-article-middle:hover{
+   background-color: #f8f8f8;
+   color: black;
+   border: 2px solid #46c7ed;
+   -webkit-transition-duration: 0.4s;
+   -moz-transition-duration: 0.4s;
+   -o-transition-duration: 0.4s;
+   transition-duration: 0.4s;
+ }
+
+ .work-experiance-heading{
+   margin-left: 8%;
+   font-size: 2em;
+   margin-right: 2%;
+   width: 10%;
+ }/*The Green Room END!!*/
+ .li-work-experiance-behance-v1{
+   margin-left: -20px;
+   color: #464646;
+   flex-wrap: wrap;
+     -webkit-flex-wrap: wrap;
+   list-style: none;
+   margin-top: 2%;
+   font-family: 'ABeeZee', sans-serif;
+   font-weight: bold;
+   font-size: 1.4em;
+ }
+ .work-experiance-heading-behance-v1 > .button-article-middle > .work-experiance-heading-one >  .work-experiance-heading-behance-v2{
+   display: inline-flex;
+     display: inline-flex;
+     display:-moz-box;
+     display: -ms--flexbox;
+     display: -webkit-inline-flex;
+ }
+ .button-article-behance-v1{
+   background-color: #46c7ed;
+   color: black;
+   border-radius: 5px;
+   border: 5px solid #46c7ed;
+     -webkit-transition-duration: 0.4s;
+     -moz-transition-duration: 0.4s;
+     -o-transition-duration: 0.4s;
+   transition-duration: 0.4s;
+ }
+ .button-article-behance-v1{
+   background-color: #46c7ed;
+   color: white;
+   border: 2px solid #46c7ed;
+   padding: 8px 16px;
+   text-align: center;
+   text-decoration: none;
+   font-size: 12px;
+   margin: 4px 2px;
+     -webkit-transition-duration: 0.4s;
+     -moz-transition-duration: 0.4s;
+     -o-transition-duration: 0.4s;
+     transition-duration: 0.4s;
+ }
+ .button-article-behance-v1:hover{
+   background-color: #f8f8f8;
+   color: black;
+   border: 2px solid #46c7ed;
+     -webkit-transition-duration: 0.4s;
+     -moz-transition-duration: 0.4s;
+     -o-transition-duration: 0.4s;
+   transition-duration: 0.4s;
+ }
+ .work-experiance-behance-v1{
+   margin-left: 8%;
+   font-size: 2em;
+   margin-right: 2%;
+   width: 10%;
+ }/*behance-v1 END!!*/
+
+ .li-work-experiance-behance-v2{
+   margin-left: -20px;
+   color: #464646;
+   list-style: none;
+   margin-top: 2%;
+   font-family: 'ABeeZee', sans-serif;
+   font-weight: bold;
+   font-size: 1.4em;
+ }
+
+ .button-article-behance-v2{
+   background-color: #46c7ed;
+   color: black;
+   border-radius: 5px;
+   border: 5px solid #46c7ed;
+     -webkit-transition-duration: 0.4s;
+     -moz-transition-duration: 0.4s;
+     -o-transition-duration: 0.4s;
+   transition-duration: 0.4s;
+ }
+ .button-article-behance-v2{
+   background-color: #46c7ed;
+   color: white;
+   border: 2px solid #46c7ed;
+   padding: 8px 16px;
+   text-align: center;
+   text-decoration: none;
+   font-size: 12px;
+   margin: 4px 2px;
+     -webkit-transition-duration: 0.4s;
+     -moz-transition-duration: 0.4s;
+     -o-transition-duration: 0.4s;
+   transition-duration: 0.4s;
+ }
+ .button-article-behance-v2:hover{
+   background-color: #f8f8f8;
+   color: black;
+   border: 2px solid #46c7ed;
+     -webkit-transition-duration: 0.4s;
+     -moz-transition-duration: 0.4s;
+     -o-transition-duration: 0.4s;
+   transition-duration: 0.4s;
+ }
+ .work-experiance-behance-v2{
+   margin-left: 8%;
+   font-size: 2em;
+   margin-right: 2%;
+   width: 10%;
+ }/*behance-v2 END!!*/
+ .article-right{
+   flex-grow: 1;
+   width: 33%;
+   background-color: #e4e4e4;
+   box-shadow: 10px 6px 5px -4px rgba(0,0,0,0.35);
+     -webkit-box-shadow: 10px 6px 5px -4px rgba(0,0,0,0.35);
+     -moz-box-shadow: 10px 6px 5px -4px rgba(0,0,0,0.35);
+}
+ .skills-heading{
+   margin-left: 8%;
+   font-size: 2em;
+   margin-right: 2%;
+   width: 10;
+}
+ .li-skills-heading{
+   font-family: 'ABeeZee', sans-serif;
+   font-size: 1.5em;
+   margin-top: 2%;
+ }
+ .footer-container{
+   display: flex;
+     display:-moz-box;
+     display: -ms-flexbox;
+     display: -webkit-flex;
+   flex-direction: row;
+      -webkit-flex-direction: row;
+   justify-content: center;
+   align-items: center;
+     -webkit-align-self: center;
+     width: 100%;
+     margin-top: 5%;
+ }
+ .footer{
+   width: 100%;
+   padding: 2em;
+   height: 60px;
+   float: inherit;
+   background: #ffffff;
+   text-align: center;
+ }
+ .footer-text-links{
+   list-style-type: none;
+   text-decoration: none;
+   color: black;
+ }
+ .footer-link{
+   text-decoration: none;
+   color: #7f7f7f;
+   margin: .2%;
+   font-size: 0.2em;
+ }/*End of cv.html!!!*/
+ /*End of cv.html!!*/
+/*End of cv.html!*/
+
+  @media only screen
+   and (min-width : 320px)
+   and (max-device-width: 480px)
+   and (-webkit-min-device-pixel-ratio: 2){
+     .container-navigation--jk > .nav-bar-top--jk{
+        display: flex;
+          display:-moz-box;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+        justify-content: center;
+          justify-content: -webkit-center;
+        width: 100%;
+     }
+
+
+
+
+   }
