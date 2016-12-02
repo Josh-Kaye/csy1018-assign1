@@ -90,7 +90,7 @@
   /*NAV-BAR-END*/
  /*NAV-BAR-END*/
   /*Container one start*/
-  .container-one-jk{ /*container / parent under .navigation for intro content (img, header, text)*/
+  .container-one--jk{ /*container / parent under .navigation for intro content (img, header, text)*/
     display: flex;
     display:-moz-box;
     display: -ms-flexbox;
@@ -126,14 +126,14 @@
   }/*Container one end!!*/
   /*Container one end!!*/
  /*Container one end!!*/
- .container-two-jk{/*conatiner for 3  items*/
+ .container-two--jk{/*conatiner for 3  items*/
    display: flex;
      display:-moz-box;
      display: -ms-flexbox;
      display: -webkit-flex;
    flex-direction: row;
      -webkit-flex-direction: row;
-   height: 700px;
+   height: 25px;
    background-color: #eeeeee;
  }
  .main-wrapper{
@@ -418,7 +418,7 @@
    align-items: center;
      -webkit-align-self: center;
      width: 100%;
-     margin-top: 5%;
+     margin-top:43%;
  }
  .footer{
    width: 100%;
@@ -441,22 +441,88 @@
  }/*End of cv.html!!!*/
  /*End of cv.html!!*/
 /*End of cv.html!*/
+/*start of contact.html*/
+ .contianer-contact-form--jk{
+   display: flex;
+     display: -webkit-flex;
+     box-sizing: border-box;
+   width: 100%;
+   height: 600px;
+   background-color: #46c7ed;
+ }
+ .ul-wrapper-outer--jk{
+    list-style-type: none;
 
-  @media only screen
-   and (min-width : 320px)
-   and (max-device-width: 480px)
-   and (-webkit-min-device-pixel-ratio: 2){
-     .container-navigation--jk > .nav-bar-top--jk{
-        display: flex;
-          display:-moz-box;
-          display: -ms-flexbox;
-          display: -webkit-flex;
-        justify-content: center;
-          justify-content: -webkit-center;
-        width: 100%;
-     }
+ }
+ .wrapper-contact-form--jk{
+   display: flex;
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+ }
+ label{
+   padding: 0 8px;
+    justify-content: space-between;
+    display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ width: 100%;
+  margin: 0 auto;
+}
 
 
 
 
-   }
+@media screen and (max-width: 875px){
+  .container-one--jk{
+    height: 700px;
+  }
+  .container-two--jk{
+    flex-flow: column;
+    width: 90%;
+    height: 250px;
+    flex-grow: 1;
+  }
+ .main-wrapper{
+   flex-direction: column;
+   width: 100%;
+ }
+ .article-left{
+   width: 100%;
+   flex-grow: 1;
+   margin-bottom: 3%;
+ }
+ .article-right{
+   width: 100%;
+   flex-grow: 1;
+   margin-bottom: 3%;
+ }
+ .article-middle{
+   width: 100%;
+   flex-grow: 1;
+   margin-bottom: 3%;
+ }
+ .footer{
+   margin-top: 100%;
+   width: 100%;
+ }
+}
+
+@media screen and (max-width: 763px){
+  .container-one--jk{
+    height: 800px;
+  }
+
+  .container-items{
+    align-self: center;
+    width: 100%;
+  }
+  .container-two--jk{
+  height: 700px;
+}
+.footer{
+  margin-top: 100%;
+  width: 100%;
+}
+
+}
